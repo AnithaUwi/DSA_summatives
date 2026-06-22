@@ -1,0 +1,5 @@
+Ambulance|Chest pain call on 5th Avenue|2026-06-20 08:15:00
+Police|Burglary report in downtown|2026-06-20 08:22:30
+Fire Station|Kitchen fire at apartment block|2026-06-20 08:30:45
+Ambulance|Road accident near hospital|2026-06-20 08:41:10
+Police|Traffic obstruction on highway|2026-06-20 09:05:00

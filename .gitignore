@@ -1,0 +1,23 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+*.out
+
+# Generated runtime files
+q1_incident_tracker/incidents_session.txt
+q2_procedure_validator/audit.log
+q5_huffman_compression/telemetry.huff
+q5_huffman_compression/telemetry_restored.txt
+
+# Local test artifacts
+q5_huffman_compression/empty.txt
+q5_huffman_compression/single.txt
+q5_huffman_compression/telemetry_backup.txt
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
