@@ -22,14 +22,14 @@ This repository contains the complete implementation for the DSA summative asses
 
 ## Prerequisites
 
-- **C++ compiler** with C++17 support (e.g. [MinGW g++](https://www.mingw-w64.org/), GCC, or Clang)
+- **C compiler** (GCC recommended — e.g. [MinGW gcc](https://www.mingw-w64.org/) on Windows)
 - **Windows / Linux / macOS** terminal
-- For Q1 only: **pthread** support (`-pthread` flag on g++)
+- For Q1 only: **pthread** support (`-pthread` flag)
 
 Verify your compiler:
 
 ```bash
-g++ --version
+gcc --version
 ```
 
 ---
@@ -40,17 +40,17 @@ g++ --version
 DSA_SUMMATIVE/
 ├── README.md
 ├── q1_incident_tracker/
-│   ├── incident_tracker.cpp
+│   ├── incident_tracker.c
 │   └── incidents_seed.txt          # Optional startup data
 ├── q2_procedure_validator/
-│   ├── procedure_validator.cpp
+│   ├── procedure_validator.c
 │   └── procedures.txt              # Approved procedures list
 ├── q3_route_analyzer/
-│   └── route_analyzer.cpp
+│   └── route_analyzer.c
 ├── q4_robot_navigation/
-│   └── robot_navigation.cpp
+│   └── robot_navigation.c
 └── q5_huffman_compression/
-    ├── huffman_compression.cpp
+    ├── huffman_compression.c
     └── telemetry.txt               # Sample telemetry log
 ```
 
@@ -63,31 +63,31 @@ Run these commands from the project root (`DSA_SUMMATIVE/`).
 ### Question 1 — Incident Tracker
 
 ```bash
-g++ -std=c++17 -pthread -o q1_incident_tracker/incident_tracker q1_incident_tracker/incident_tracker.cpp
+gcc -std=c99 -pthread -o q1_incident_tracker/incident_tracker q1_incident_tracker/incident_tracker.c
 ```
 
 ### Question 2 — Procedure Validator
 
 ```bash
-g++ -std=c++17 -o q2_procedure_validator/procedure_validator q2_procedure_validator/procedure_validator.cpp
+gcc -std=c99 -o q2_procedure_validator/procedure_validator q2_procedure_validator/procedure_validator.c
 ```
 
 ### Question 3 — Route Analyzer
 
 ```bash
-g++ -std=c++17 -o q3_route_analyzer/route_analyzer q3_route_analyzer/route_analyzer.cpp
+gcc -std=c99 -o q3_route_analyzer/route_analyzer q3_route_analyzer/route_analyzer.c
 ```
 
 ### Question 4 — Robot Navigation
 
 ```bash
-g++ -std=c++17 -o q4_robot_navigation/robot_navigation q4_robot_navigation/robot_navigation.cpp
+gcc -std=c99 -o q4_robot_navigation/robot_navigation q4_robot_navigation/robot_navigation.c
 ```
 
 ### Question 5 — Huffman Compression
 
 ```bash
-g++ -std=c++17 -o q5_huffman_compression/huffman_compression q5_huffman_compression/huffman_compression.cpp
+gcc -std=c99 -o q5_huffman_compression/huffman_compression q5_huffman_compression/huffman_compression.c
 ```
 
 **Windows (PowerShell):** Use the same commands; executables are created without an extension or with `.exe` depending on your toolchain.
