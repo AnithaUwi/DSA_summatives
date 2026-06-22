@@ -2,7 +2,7 @@
 
 **Author:** Anitha Uwimpuhwe 
 **Course:** Data Structures and Algorithms (DSA)  
-**Repository:** [https://github.com/AnithaUwi/DSA_summative](https://github.com/AnithaUwi/DSA_summative)
+**Repository:** [https://github.com/AnithaUwi/DSA_summatives](https://github.com/AnithaUwi/DSA_summatives)
 
 This repository contains the complete implementation for the DSA summative assessment. Each question applies a core data structure or algorithm to a real-world scenario.
 
